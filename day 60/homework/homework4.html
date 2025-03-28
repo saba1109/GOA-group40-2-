@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @keyframes heartbeat {
+      0% {
+        transform: scale(1);
+      }
+      25% {
+        transform: scale(1.1);
+      }
+      50% {
+        transform: scale(1);
+      }
+      75% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      border-radius: 50%;
+      animation: heartbeat 1s infinite;
+      margin: 100px auto;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
