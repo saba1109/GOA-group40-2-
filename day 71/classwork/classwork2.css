@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #222;
+    color: white;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+nav a:hover, .active {
+    color: #f97316;
+}
+.contact-btn {
+    background-color: white;
+    color: #222;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 5%;
+    gap: 40px;
+}
+.hero-text {
+    max-width: 500px;
+}
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.hero-text h1 span {
+    color: #f97316;
+}
+.hero-text p {
+    margin: 20px 0;
+    color: #666;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.buttons a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.hire {
+    background-color: black;
+    color: white;
+}
+.experience {
+    background-color: #f97316;
+    color: white;
+}
+
+
+.hero-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+}

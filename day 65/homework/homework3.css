@@ -1,0 +1,67 @@
+body {
+    background-color: #0c0c1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 800px;
+}
+
+.card {
+    display: flex;
+    background-color: #16162b;
+    border-radius: 15px;
+    overflow: hidden;
+    color: white;
+}
+
+.text-section {
+    padding: 40px;
+    width: 50%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.highlight {
+    color: #a855f7;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    color: #cbd5e1;
+    margin: 15px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats strong {
+    font-size: 18px;
+    color: white;
+}
+
+.image-section {
+    width: 50%;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(50%) contrast(1.2) brightness(0.8) sepia(10%) hue-rotate(250deg);
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            background: #f8f5f2;
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            margin: 20px 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 200px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 10px;
+        }
+        .card h3 {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .price {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>OUR SPECIAL COFFEE</h2>
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?coffee" alt="">
+            <div class="card-content">
+                <h3>Lungo Coffee</h3>
+                <p class="price">Rs. 199</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?latte" alt="">
+            <div class="card-content">
+                <h3>Bologna Coffee</h3>
+                <p class="price">Rs. 150</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?iced-coffee" alt="">
+            <div class="card-content">
+                <h3>Iced Coffee</h3>
+                <p class="price">Rs. 149</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?espresso" alt="">
+            <div class="card-content">
+                <h3>Filter Coffee</h3>
+                <p class="price">Rs. 50</p>
+            </div>
+        </div>
+    </div>
+    
+    <h2>OUR SPECIAL DESSERT</h2>
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?gulab-jamun" alt="">
+            <div class="card-content">
+                <h3>Gulab Jamun</h3>
+                <p class="price">Rs. 199</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?tiramisu" alt="">
+            <div class="card-content">
+                <h3>Chocolate Tiramisu</h3>
+                <p class="price">Rs. 250</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?churros" alt="">
+            <div class="card-content">
+                <h3>Churros</h3>
+                <p class="price">Rs. 170</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/200x150/?cookies" alt="">
+            <div class="card-content">
+                <h3>Alfajores Lamingtons</h3>
+                <p class="price">Rs. 250</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

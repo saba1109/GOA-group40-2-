@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 130vh; 
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 60%; 
+        }
+        .card {
+            flex: 1;
+            padding: 30px;
+            color: white;
+            text-align: left;
+            height: 400px; 
+        }
+        .sedans { background-color: #d4842c; }
+        .suvs { background-color: #005f63; }
+        .luxury { background-color: #003d36; }
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 195px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card sedans">
+            <h2 class="cars">SEDANS</h2>
+            <p class="p">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="card suvs">
+            <h2 class="cars">SUVS</h2>
+            <p class="p">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="card luxury">
+            <h2 class="cars">LUXURY</h2>
+            <p class="p">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+    
+</body>
+</html>
+

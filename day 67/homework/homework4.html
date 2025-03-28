@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal X</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .header {
+            background: url('https://source.unsplash.com/1200x500/?desert,hiking') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .header h1 {
+            font-size: 32px;
+            max-width: 600px;
+        }
+        .header p {
+            font-size: 16px;
+            max-width: 500px;
+            margin-top: 10px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .categories {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h3 {
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .popular {
+            margin-top: 40px;
+        }
+        .popular-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Conquer the wild: Exploring terrains and conquering nature</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis lacus non erat hendrerit gravida.</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Article categories</h2>
+        <div class="categories">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?hiking" alt="">
+                <div class="card-content">
+                    <h3>Travel</h3>
+                    <p>Unveiling hidden gems: Exploring off-the-beaten-path destinations</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?adventure" alt="">
+                <div class="card-content">
+                    <h3>Adventure</h3>
+                    <p>Conquer the wild: Exploring terrains and conquering nature</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?gear" alt="">
+                <div class="card-content">
+                    <h3>Gear</h3>
+                    <p>Gear up for adventure: Essential equipment for outdoor enthusiasts</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular">
+            <h2 class="section-title">Popular now</h2>
+            <div class="popular-item">
+                <span>Travel - Dec 1, 2023</span>
+                <span>Unveiling hidden gems: Exploring off-the-beaten-path destinations</span>
+            </div>
+            <div class="popular-item">
+                <span>Adventure - Sep 1, 2023</span>
+                <span>Conquer the wild: Exploring terrains and conquering nature</span>
+            </div>
+            <div class="popular-item">
+                <span>Gear - Sep 1, 2023</span>
+                <span>Gear up for adventure: Essential equipment for outdoor enthusiasts</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

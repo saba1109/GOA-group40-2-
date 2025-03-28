@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card h3 {
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .card button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #ddd;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .card button:hover {
+            background: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/250x150/?fence" alt="">
+            <div class="card-content">
+                <h3>FLEX</h3>
+                <p>This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters are optional. Default is 0 1 auto.</p>
+                <button>button</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/250x150/?nature" alt="">
+            <div class="card-content">
+                <h3>FLEX GROW</h3>
+                <p>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion.</p>
+                <button>button</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/250x150/?turntable" alt="">
+            <div class="card-content">
+                <h3>FLEX SHRINK</h3>
+                <p>This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
+                <button>button</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

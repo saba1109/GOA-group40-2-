@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr); /* 10 სვეტი, ყველა თანაბარი სიგანის */
+            grid-template-rows: repeat(10, 50px); /* 10 მწკრივი, თითოეული 50px სიმაღლის */
+            gap: 2px; /* პატარა დაშორება უჯრედებს შორის */
+            background-color: lightgray;
+        }
+
+        .box {
+            background-color: blue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-area: 5 / 3 / 9 / 7; 
+            grid-row-start: 5;    /* იწყება მე-5 მწკრივიდან */
+            grid-column-start: 3; /* იწყება მე-3 სვეტიდან */
+            grid-row-end: 9;      /* მთავრდება მე-9 მწკრივში */
+            grid-column-end: 7;   /* მთავრდება მე-7 სვეტში */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Grid Area</div>
+    </div>
+</body>
+</html>

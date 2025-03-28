@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fc;
+    padding-top: 50px;
+}
+h1, h2, p {
+    margin-bottom: 20px;
+}
+.container {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    border-top: 4px solid;
+    width: 300px;
+    height: 140px;
+}
+.card img {
+    width: 40px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.team { border-color: red; grid-column: span 2; justify-self: center; }
+.karma { border-color: orange; grid-column: span 2; justify-self: center; }
+.supervisor { border-color: cyan; justify-self: start; }
+.calculator { border-color: blue; justify-self: end; }
