@@ -110,3 +110,29 @@ form input{
     margin-top: -60px;
     margin-left: 700px;
 }
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.section-div{
+    width: Hug (1,640px);
+    height: Hug (1,144px);
+    margin-top: 100px;
+}
+
+.section-div h2{
+    width: 828px;
+    height: 172px;
+    font-size: 55px;
+}
+
+.section p{
+    font-size: 22px;
+    padding-left: 1000px;
+    
+}
